@@ -45,7 +45,21 @@
          });
      });
     </script>
-    
+    <style>
+        .fb-share-button
+      {
+      transform: scale(1.4);
+      -ms-transform: scale(1.4);
+      -webkit-transform: scale(1.4);
+      -o-transform: scale(1.4);
+      -moz-transform: scale(1.4);
+      transform-origin: top left;
+      -ms-transform-origin: top left;
+      -webkit-transform-origin: top left;
+      -moz-transform-origin: top left;
+      -webkit-transform-origin: top left;
+      }
+  </style>
     <!-- Add custom CSS here -->
     <link href="css/landing-page.css" rel="stylesheet">
 
@@ -216,13 +230,18 @@
                     <ul class="list-inline banner-social-buttons">
                         <li>
                         <div class="fb-share-button" data-href="http://kindlemanga.lucainnocenti.com/"
-                             data-type="box_count"></div>  
+                             data-type="button"></div>  
                         </li>
                         <li>
-                        <a href="https://twitter.com/share" class="twitter-share-button" 
+                        <!--a href="https://twitter.com/share" class="twitter-share-button" 
                            data-text="From now I'll read my Manga on Kindle" data-via="pacowoodoo" 
                            data-hashtags="mangaonkindle" data-dnt="true"
                            data-count="vertical">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script-->
+                        <a href="https://twitter.com/share" class="twitter-share-button" 
+                           data-text="From now I'll read my Manga on Kindle" data-via="pacowoodoo" 
+                           data-size="large" data-count="none" data-hashtags="mangaonkindle" 
+                           data-dnt="true">Tweet</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                         </li>
                         <!--li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
